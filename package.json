@@ -1,0 +1,20 @@
+{
+  "name": "udemy-typescript-handson",
+  "version": "1.0.0",
+  "description": "[ハンズオンで学ぶ TypeScript - Udemy](https://www.udemy.com/course/ts-for-js-developers/learn/lecture/17755872#overview)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torish14/udemy-typescript-handson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torish14/udemy-typescript-handson/issues"
+  },
+  "homepage": "https://github.com/torish14/udemy-typescript-handson#readme"
+}
