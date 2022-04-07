@@ -4,6 +4,7 @@
   "description": "[ハンズオンで学ぶ TypeScript - Udemy](https://www.udemy.com/course/ts-for-js-developers/learn/lecture/17755872#overview)",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
