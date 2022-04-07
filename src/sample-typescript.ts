@@ -1,3 +1,3 @@
-const greet: string = 'Hello TypeScript!'
+const greet: string = 'Hello ts-node!'
 
 console.log(greet)
