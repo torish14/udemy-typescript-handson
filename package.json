@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/torish14/udemy-typescript-handson/issues"
   },
-  "homepage": "https://github.com/torish14/udemy-typescript-handson#readme"
+  "homepage": "https://github.com/torish14/udemy-typescript-handson#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
