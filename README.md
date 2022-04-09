@@ -11,5 +11,20 @@
   - `(string | number)[]` といったもの
   - なので、代わりにタプル型を使う
     - `[string | number]` といったもの
+- `interface` は便利
+	- オブジェクトの型に名前をつけることができる
+	- つまり、型をまとめて指定できる
+	- `type（型エイリアス）` と `interface` のちがいは、
+		- `interface` は **オブジェクト** と **クラス** の型だけ定義できる
+		- `type` は **他の型も参照できる**
+		- `interface` は **拡張できる**
+		- `type` は **拡張できない**
+		- だけど、拡張性ってそんな持たせることある？
+		- 拡張性持たせるのめんどくさい
+		- 結論、`type` でいい（？）
+
+## 参考サイト
 
 [ハンズオンで学ぶ TypeScript - Udemy](https://www.udemy.com/course/ts-for-js-developers/learn/lecture/17755872#overview)
+
+[interface と type の違い、そして何を使うべきかについて](https://zenn.dev/luvmini511/articles/6c6f69481c2d17)
