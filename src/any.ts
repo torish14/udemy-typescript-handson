@@ -13,5 +13,14 @@ axios.get(url).then((response) => {
 
   let data: Article[] = response.data
 
+  data = [
+    {
+      userId: 3,
+      id: 2,
+      title: 'check Article type',
+      completed: true,
+    },
+  ]
+
   console.log(data)
 })
