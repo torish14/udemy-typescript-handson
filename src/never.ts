@@ -13,4 +13,4 @@ try {
 
 let foo: void = undefined
 // never には、undefined も null も許されない
-let bar: never = undefined
+let bar: never = error('Something went wrong!')
